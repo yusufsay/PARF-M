@@ -1,0 +1,41 @@
+body{
+width: 100vw;
+height:100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: green;
+}
+main{
+    display: flex;
+    width: 700px;
+    height: 550px;
+    position: relative;
+    flex-direction: column;
+flex-wrap: wrap;
+background-color: aliceblue;
+}
+img{
+    height: 100%;
+    position: relative;
+    flex: 0 1 40%;
+}
+h1{
+ display: flex;
+ position: relative;
+ max-width: 40%;
+}
+p{
+    max-width: 40%;
+    margin-top: 10%;
+}
+h3{
+    margin-top: 13%;
+}
+button{
+    border: none;
+    background-color:blue;
+    color: white;
+    height: 30px;
+    border-radius: 15px;
+}
